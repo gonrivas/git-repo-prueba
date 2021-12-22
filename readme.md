@@ -36,6 +36,33 @@ git config user.email "gonzalomrivas@gmail.com"
 git config --get-regexp user
 ```
 
+## Agregar archivo a  Working Directory (WD) al index (Staged)
+
+```sh
+git add nombreArchivo.ext
+
+git add .
+```
+#### asi agrega todo!
+
+### Hacer commit
+```sh
+git commit -m "mensaje"
+```
+
+### Log del commit
+
+```sh
+git log
+
+git log --oneline
+```
+
+### Para saber lo que pasa en el WD
+```sh
+git status
+```
+
 
 
 
