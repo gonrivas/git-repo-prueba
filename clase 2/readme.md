@@ -42,6 +42,11 @@ agregar remoto
 git remote rm origin  
 ```
 
+## BRANCHES
+** git branch
+** git branch nombreRama
+** git checkout -b nombreRama  Crea RAMA y me pasa a esa rama
+** git switch nombreRama al que quiero cambiar 
 
 
 
