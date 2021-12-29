@@ -22,4 +22,28 @@ git log -2
 ## GIT KEEP
 ** tiene en cuenta la carpeta vacia para que la vea git se crea un archivo .gitkeep
 
+## FORMA CORTA DE GIT ADD + GIT COMMIT juntos, 
+** tengo que tener todos los archivos seguidos, si hay algun untracked no se hace commit de esos archivos y van a seguir untracked.
+```sh
+git commit -am "mensaje del commit"
+```
+## GIT REMOTE
+lista origin
+```sh
+git remote -v 
+```
+
+agregar remoto
+```sh
+git remote add {alias} <url> 
+```
+agregar remoto
+```sh
+git remote rm origin  
+```
+
+
+
+
+
 
